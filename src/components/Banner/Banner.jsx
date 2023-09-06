@@ -2,7 +2,10 @@ import banner from "../../assets/banner.svg";
 
 const Banner = () => {
   return (
-    <div className="grid grid-cols-2 justify-between items-center pt-24 px-28 h-screen bg-[#f5f5f5]">
+    <div
+      id="home"
+      className="grid grid-cols-2 justify-between items-center pt-24 px-28 h-screen bg-[#f5f5f5]"
+    >
       <div>
         <img src={banner} alt="banner" />
       </div>

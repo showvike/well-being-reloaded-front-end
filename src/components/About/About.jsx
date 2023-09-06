@@ -3,7 +3,7 @@ import about from "../../assets/about.svg";
 
 const About = () => {
   return (
-    <div className="pt-6 px-28 h-screen">
+    <div id="about" className="pt-6 px-28 h-screen">
       <h1 className="text-4xl font-black text-[#444] py-5 text-center">
         ABOUT <span className="text-[#16A085]">US</span>
       </h1>
@@ -25,9 +25,9 @@ const About = () => {
             personalized approach, we prioritize your health, fostering a
             vibrant and fulfilling life.
           </p>
-          <button className="text-[#16A085] mt-4 py-1 pl-3 pr-1 border border-[#16A085] rounded flex items-center gap-2 shadow-2xl hover:bg-[#16A085] hover:text-white">
+          <button className="text-[#16A085] mt-4 py-1 pl-3 pr-1 border border-[#16A085] rounded flex items-center gap-2 shadow-2xl hover:bg-[#16A085] hover:text-white transition-all">
             Learn More{" "}
-            <span className="bg-[#16A085] p-2 rounded hover:bg-white">
+            <span className="bg-[#16A085] p-2 rounded hover:bg-white transition-all">
               <FaChevronRight className="text-white hover:text-[#16A085]" />
             </span>
           </button>

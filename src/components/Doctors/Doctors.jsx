@@ -17,24 +17,24 @@ const Doctors = () => {
     <>
       <p className="text-[#16A085]">Expert Doctor</p>
       <div className="pt-4 flex gap-2">
-        <p className="rounded-full border border-[#16A085] p-3 hover:bg-[#16A085] shadow-2xl">
+        <p className="rounded-full border border-[#16A085] p-3 hover:bg-[#16A085] shadow-2xl transition-all">
           <Link to="#">
-            <FaFacebookF className="text-2xl text-[#16A085] hover:text-white" />
+            <FaFacebookF className="text-2xl text-[#16A085] hover:text-white transition-all" />
           </Link>
         </p>
-        <p className="rounded-full border border-[#16A085] p-3 hover:bg-[#16A085] shadow-2xl">
+        <p className="rounded-full border border-[#16A085] p-3 hover:bg-[#16A085] shadow-2xl transition-all">
           <Link to="#">
-            <FaTwitter className="text-2xl text-[#16A085] hover:text-white" />
+            <FaTwitter className="text-2xl text-[#16A085] hover:text-white transition-all" />
           </Link>
         </p>
-        <p className="rounded-full border border-[#16A085] p-3 hover:bg-[#16A085] shadow-2xl">
+        <p className="rounded-full border border-[#16A085] p-3 hover:bg-[#16A085] shadow-2xl transition-all">
           <Link to="#">
-            <FaInstagram className="text-2xl text-[#16A085] hover:text-white" />
+            <FaInstagram className="text-2xl text-[#16A085] hover:text-white transition-all" />
           </Link>
         </p>
-        <p className="rounded-full border border-[#16A085] p-3 hover:bg-[#16A085] shadow-2xl">
+        <p className="rounded-full border border-[#16A085] p-3 hover:bg-[#16A085] shadow-2xl transition-all">
           <Link to="#">
-            <FaLinkedin className="text-2xl text-[#16A085] hover:text-white" />
+            <FaLinkedin className="text-2xl text-[#16A085] hover:text-white transition-all" />
           </Link>
         </p>
       </div>
@@ -42,12 +42,12 @@ const Doctors = () => {
   );
 
   return (
-    <div className="bg-[#f5f5f5] py-5 px-28">
+    <div id="doctors" className="bg-[#f5f5f5] py-5 px-28">
       <h1 className="text-4xl font-black text-[#444] py-5 text-center">
         OUR <span className="text-[#16A085]">DOCTORS</span>
       </h1>
       <div className="grid grid-cols-3 gap-4">
-        <div className="border border-[#16A085] p-6 rounded shadow-2xl bg-white flex flex-col items-center">
+        <div className="border border-[#16A085] p-6 rounded shadow-2xl bg-white flex flex-col items-center hover:shadow-[#16A085] transition-all">
           <div className="text-[#16a085]">
             <img
               className="rounded-full border border-[#16A085] w-48 h-48"
@@ -58,7 +58,7 @@ const Doctors = () => {
           <p className="text-2xl font-black text-[#444] pt-4">Ada Adams</p>
           {common}
         </div>
-        <div className="border border-[#16A085] p-6 rounded shadow-2xl bg-white flex flex-col items-center">
+        <div className="border border-[#16A085] p-6 rounded shadow-2xl bg-white flex flex-col items-center hover:shadow-[#16A085] transition-all">
           <div className="text-[#16a085]">
             <img
               className="rounded-full border border-[#16A085] w-48 h-48"
@@ -69,7 +69,7 @@ const Doctors = () => {
           <p className="text-2xl font-black text-[#444] pt-4">Joe Goldberg</p>
           {common}
         </div>
-        <div className="border border-[#16A085] p-6 rounded shadow-2xl bg-white flex flex-col items-center">
+        <div className="border border-[#16A085] p-6 rounded shadow-2xl bg-white flex flex-col items-center hover:shadow-[#16A085] transition-all">
           <div className="text-[#16a085]">
             <img
               className="rounded-full border border-[#16A085] w-48 h-48"
@@ -80,7 +80,7 @@ const Doctors = () => {
           <p className="text-2xl font-black text-[#444] pt-4">John Snow</p>
           {common}
         </div>
-        <div className="border border-[#16A085] p-6 rounded shadow-2xl bg-white flex flex-col items-center">
+        <div className="border border-[#16A085] p-6 rounded shadow-2xl bg-white flex flex-col items-center hover:shadow-[#16A085] transition-all">
           <div className="text-[#16a085]">
             <img
               className="rounded-full border border-[#16A085] w-48 h-48"
@@ -91,7 +91,7 @@ const Doctors = () => {
           <p className="text-2xl font-black text-[#444] pt-4">Forty Quinn</p>
           {common}
         </div>
-        <div className="border border-[#16A085] p-6 rounded shadow-2xl bg-white flex flex-col items-center">
+        <div className="border border-[#16A085] p-6 rounded shadow-2xl bg-white flex flex-col items-center hover:shadow-[#16A085] transition-all">
           <div className="text-[#16a085]">
             <img
               className="rounded-full border border-[#16A085] w-48 h-48"
@@ -102,7 +102,7 @@ const Doctors = () => {
           <p className="text-2xl font-black text-[#444] pt-4">Walter White</p>
           {common}
         </div>
-        <div className="border border-[#16A085] p-6 rounded shadow-2xl bg-white flex flex-col items-center">
+        <div className="border border-[#16A085] p-6 rounded shadow-2xl bg-white flex flex-col items-center hover:shadow-[#16A085] transition-all">
           <div className="text-[#16a085]">
             <img
               className="rounded-full border border-[#16A085] w-48 h-48"
