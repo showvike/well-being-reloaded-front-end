@@ -5,30 +5,30 @@ const Nav = () => {
   return (
     <nav className="flex justify-between items-center h-24 shadow-md px-28 fixed w-full bg-white">
       <div>
-        <Link to="#">
+        <a href="#home">
           <img className="w-24 h-24" src={logo} alt="logo.png" />
-        </Link>
+        </a>
       </div>
       <ul className="flex gap-8 text-[#777777]">
-        <li>
-          <Link to="#">Home</Link>
+        <li className="hover:text-[#16A085] hover:font-black transition-all">
+          <a href="#home">Home</a>
         </li>
-        <li>
-          <Link to="#">Services</Link>
+        <li className="hover:text-[#16A085] hover:font-black transition-all">
+          <a href="#services">Services</a>
         </li>
-        <li>
-          <Link to="#">About</Link>
+        <li className="hover:text-[#16A085] hover:font-black transition-all">
+          <a href="#about">About</a>
         </li>
-        <li>
-          <Link to="#">Doctors</Link>
+        <li className="hover:text-[#16A085] hover:font-black transition-all">
+          <a href="#doctors">Doctors</a>
         </li>
-        <li>
-          <Link to="#">Contact</Link>
+        <li className="hover:text-[#16A085] hover:font-black transition-all">
+          <a href="#footer">Contact</a>
         </li>
-        <li>
+        <li className="hover:text-[#16A085] hover:font-black transition-all">
           <Link to="#">Login</Link>
         </li>
-        <li>
+        <li className="hover:text-[#16A085] hover:font-black transition-all">
           <Link to="#">Register</Link>
         </li>
       </ul>

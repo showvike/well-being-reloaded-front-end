@@ -2,12 +2,12 @@ import { FaHeartbeat, FaNotesMedical, FaPills, FaUserMd } from "react-icons/fa";
 
 const Services = () => {
   return (
-    <div className="bg-[#f5f5f5] py-5 px-28">
+    <div id="services" className="bg-[#f5f5f5] py-5 px-28">
       <h1 className="text-4xl font-black text-[#444] py-5 text-center">
         OUR <span className="text-[#16A085]">SERVICES</span>
       </h1>
       <div className="grid grid-cols-4 gap-5">
-        <div className="border border-[#16A085] p-6 rounded shadow-2xl bg-white">
+        <div className="border border-[#16A085] p-6 rounded shadow-2xl bg-white hover:shadow-[#16a085] transition-all">
           <div className="text-[#16a085]">
             <FaNotesMedical className="text-5xl" />
           </div>
@@ -18,7 +18,7 @@ const Services = () => {
             life for all.
           </p>
         </div>
-        <div className="border border-[#16A085] p-6 rounded shadow-2xl bg-white">
+        <div className="border border-[#16A085] p-6 rounded shadow-2xl bg-white hover:shadow-[#16a085] transition-all">
           <div className="text-[#16a085]">
             <FaUserMd className="text-5xl" />
           </div>
@@ -29,7 +29,7 @@ const Services = () => {
             improved patient outcomes.
           </p>
         </div>
-        <div className="border border-[#16A085] p-6 rounded shadow-2xl bg-white">
+        <div className="border border-[#16A085] p-6 rounded shadow-2xl bg-white hover:shadow-[#16a085] transition-all">
           <div className="text-[#16a085]">
             <FaPills className="text-5xl" />
           </div>
@@ -40,7 +40,7 @@ const Services = () => {
             well-being when used responsibly.
           </p>
         </div>
-        <div className="border border-[#16A085] p-6 rounded shadow-2xl bg-white">
+        <div className="border border-[#16A085] p-6 rounded shadow-2xl bg-white hover:shadow-[#16a085] transition-all">
           <div className="text-[#16a085]">
             <FaHeartbeat className="text-5xl" />
           </div>
