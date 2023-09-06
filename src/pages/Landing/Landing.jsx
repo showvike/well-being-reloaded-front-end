@@ -1,5 +1,6 @@
 import About from "../../components/About/About";
 import Banner from "../../components/Banner/Banner";
+import Doctors from "../../components/Doctors/Doctors";
 import Nav from "../../components/Nav/Nav";
 import Services from "../../components/Services/Services";
 import Statistics from "../../components/Statistics/Statistics";
@@ -12,6 +13,7 @@ const Landing = () => {
       <Statistics />
       <Services />
       <About />
+      <Doctors />
     </div>
   );
 };
